@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background: rgb(25,92,189);
+background: linear-gradient(90deg, rgba(25,92,189,1) 0%, rgba(0,159,227,1) 20%, rgba(0,159,227,1) 35%, rgba(0,159,227,1) 50%, rgba(0,159,227,1) 65%, rgba(0,159,227,1) 80%, rgba(25,92,189,1) 100%);
+}
+
+.active {
+  background-color: #feba02;
+  color: rgb(32, 80, 114);
+  border-radius: 8px;
+  padding: 5px 7px;
+  font-weight: bold;
+}
